@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "telegraf": "^4.11.2"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  }
+}
