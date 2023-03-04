@@ -15,12 +15,15 @@ bot.hears("Salom", (ctx) =>
   )
 );
 
-bot.hears("Mening ismim usenameim nima?", (ctx) =>
-  ctx.reply(`Sening ismin ${ctx.message.from.username}`)
+bot.hears("Seni kimming botisan?", (ctx) =>
+  ctx.reply(`Men Mr Muhkammadbeyning botiman`)
 );
 
 bot.help((ctx) => ctx.reply(commands));
-bot.on("sticker", (ctx) => ctx.reply("👍"));
+bot.on("sticker", (ctx) => ctx.reply("🫡"));
+bot.on("photo", (ctx) => ctx.reply("🥹"));
+bot.on("voice", (ctx) => ctx.reply("😵"));
+bot.on("text", (ctx) => ctx.reply("Kechirasiz siz qoidada chiqib ketingiz"));
 
 bot.command("admin", async (ctx) => {
   return await ctx.reply(
