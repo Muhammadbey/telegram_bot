@@ -9,20 +9,6 @@ bot.start((ctx) =>
   )
 );
 
-bot.hears("Keyingisi", (ctx) =>
-  ctx.reply(`Ingliz tilidan ixtisoslashtirilgan maktablarga tayyorlanuvchilar uchun 2-nazorat testi
-
-🏆 @FikrLab loyihasi 3-6 sinf o'quvchilari uchun Ingliz tilidan 2-nazorat imtihonini e'lon qiladi!
-
-4-mart Shanba kuni soat 11:00 dan soat 21:00 ga qadar oliygoh.uz platformasida Ingliz tili fanidan onlayn test bo'lib o'tadi.
-
-📄 Test savollari 3-4 sinf uchun alohida 5-6 sinflar uchun alohida tuzilgan.
-
-🏆 Faol ishtirokchilar sertifikat bilan taqdirlanadi!
-
-➡️ Testda qatnashish uchun @fikrlab_bot orqali ro'yxatdan o'ting
-`)
-);
 bot.hears("Salom", (ctx) =>
   ctx.reply(
     `Salom ${ctx.message.from.username ? ctx.message.from.first_name : "Odam"}!`
