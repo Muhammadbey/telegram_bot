@@ -3,9 +3,9 @@
 const path = `
 /start - Boshlash
 /help - Yordam
-/admin - adminlar 
-/contact - Telfon raqamlar
-/phone - raqam
+/admin - Adminlar Bilan Bo'lanish Uchun
+/contact - Bizning Telfon Raqamlari
+/phone - Aloqa Uchun Telfon Raqamingiz
 `;
 
 module.exports.commands = path;
